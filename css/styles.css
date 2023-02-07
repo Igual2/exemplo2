@@ -38,6 +38,17 @@ main{
     gap: 30px;
     align-items: center;
 }
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contato div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
 footer{
     display: flex;
     flex-direction: row;
