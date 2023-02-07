@@ -4,17 +4,50 @@
 }
 body{
     color: white;
+    background-image: url(../css/imagem/imagesfundo2.jfif);
+    background-size: 100vh;
 }
 header{
+    box-shadow: 0px 2px 15px rgb(235, 149, 235);
     background-color: rgb(40,0,70);
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
+    
+}
+header li{
+    transition: 0.3s;
+
+}
+header li:hover{
+    font-size: large;
+    
 }
 header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+}
+main{
+    background-image: linear-gradient(to right, rgb(20,0,30,0.8),rgb(40,0,70,0.8),rgb(20,0,30), rgb(20,0,30,0.5));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contato div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px
 }
 footer{
     display: flex;
