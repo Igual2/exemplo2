@@ -25,6 +25,6 @@ footer{
     padding: 10px;
 }
 
-header ul:hover{
-
+header li:hover{
+    font-size: large;
 }
