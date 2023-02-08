@@ -16,9 +16,8 @@ header{
 }
 .logo_header{
     filter: invert();    
-    height: 30px;
+    height: 20px;
 }
-
 
 header li{
     transition: 0.3s;
@@ -42,6 +41,13 @@ main{
     flex-direction: column;
     gap: 30px;
     align-items: center;
+}
+#linguagem{
+    opacity: 0;
+    transition: 0.4s;
+}
+#linguagem:hover{
+    opacity: 1;
 }
 
 #contato form{
