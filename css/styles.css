@@ -43,11 +43,28 @@ main{
     align-items: center;
 }
 #linguagem{
-    opacity: 0;
+    opacity: 10;
     transition: 0.4s;
+}
+#linguagem img{
+    width: 200px;
+    height: auto;
+    display: inline-flex;
+}
+#linguagem div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 #linguagem:hover{
     opacity: 1;
+}
+.imglinguagem{
+    filter: invert();    
+    height: 100px; 
+    display: inline-flex; 
+    
 }
 
 #contato form{
