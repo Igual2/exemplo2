@@ -92,3 +92,7 @@ footer{
 header li:hover{
     font-size: large;
 }
+
+#linguagem ul{
+    padding: 20px;
+}
