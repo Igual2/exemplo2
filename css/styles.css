@@ -57,9 +57,12 @@ main{
     justify-content: space-around;
     align-items: center;
 }
+
 #linguagem:hover{
     opacity: 1;
+    padding: 20px;
 }
+
 .imglinguagem{
     filter: invert();    
     height: 100px; 
